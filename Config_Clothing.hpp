@@ -1,9 +1,3 @@
-
-TEST
-
-
-
-
 /*
 *    ARRAY FORMAT:
 *        0: STRING (Classname)
