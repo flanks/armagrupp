@@ -174,7 +174,7 @@ class WeaponShops {
    conditions = "license_civ_""rebelofficer";
     level[] = { "", "", -1, "" };
     items[] = {
-            { "arifle_TRG20_F", "", 60000, 2500 },
+            { "arifle_TRG20_F", "", 60001, 2500 },
             { "arifle_Katiba_F", "", 70000, 5000 },
             { "arifle_AK12_F", "", 200000, 5000 },
             { "arifle_AKM_F", "", 200000, 5000 },
