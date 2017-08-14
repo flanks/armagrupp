@@ -24,7 +24,7 @@ class Clothing {
             { "U_C_Poloshirt_redwhite",     "Poloshirt Red/White",          150,  { "", "", -1 } },
             { "U_C_Poloshirt_salmon",       "Poloshirt Salmon",             175,  { "", "", -1 } },
             { "U_C_Poloshirt_blue",         "Poloshirt Blue",               250,  { "", "", -1 } },
-            { "U_C_Poor_2",                 "Rag tagged clothes",           250,  { "", "", -1 } },
+            { "U_C_Poor_2",                 "Rag tagged clothes",           300,  { "", "", -1 } },
             { "U_C_Poloshirt_burgundy",     "Poloshirt Burgundy",           275,  { "", "", -1 } },
             { "U_C_Poloshirt_tricolour",    "Poloshirt Tricolor",           350,  { "", "", -1 } },
             { "U_IG_Guerilla2_2",           "Green stripped shirt & Pants", 650,  { "", "", -1 } },
