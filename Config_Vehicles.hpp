@@ -1214,17 +1214,16 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vFuelSpace = 80000;
         conditions = "";
         price = 200000;
-        textures[] = {
+        textures[] = {};
 
-		};
+    };
 	class O_MRAP_02_F {
         vItemSpace = 50;
         vFuelSpace = 80000;
         conditions = "";
         price = 2000000;
-        textures[] = {
-
-		};	
+        textures[] = {};
+			
     };
 	
 	class O_T_LSV_02_unarmed_viper_F {

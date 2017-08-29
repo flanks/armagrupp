@@ -292,8 +292,8 @@ class WeaponShops {
 			{ "arifle_AK12_F","", 1700000, -1 }, // AK12	
 			{ "arifle_Katiba_F","", 320000, -1 }, // Katiba	
 			{ "arifle_MXC_F","", 300000, -1 }, // MXC	
-			{ "arifle_CTAR_hex_F","", 700000, -1 }, // Rahim	
-			{ "srifle_DMR_06_olive_F","", 150000, -1 }, // Rahim	
+			{ "arifle_CTAR_hex_F","", 275000, -1 }, // ctar	
+			{ "srifle_DMR_06_olive_F","", 1500000, -1 }, // mk14	
 			
             // 9 mm
             { "SMG_01_F",               "", 15000, -1 }, // SMG
@@ -320,8 +320,6 @@ class WeaponShops {
 			{ "30Rnd_65x39_caseless_green",    "", 1000,   -1 }, // katiba	
 			{ "30Rnd_556x45_Stanag",    "", 1000,   -1 }, // mx	
 			{ "10Rnd_762x54_Mag",    "", 1000,   -1 }, // Rahim	
-		
-			
 			
             // .45 ACP
             { "30Rnd_45ACP_Mag_SMG_01", "", 1000,   -1 }, // .45 ACP
@@ -329,7 +327,6 @@ class WeaponShops {
 			{ "11Rnd_45ACP_Mag",         "", 900,    -1 }, // .45 ACP Handgun mag
 			{ "6Rnd_45ACP_Cylinder",         "", 900,    -1 }, // .45 ACP Handgun mag
 			
-
             // 9 mm
             { "16Rnd_9x21_Mag",         "", 600,    -1 }, // 9mm 16rnd
             { "30Rnd_9x21_Mag",         "", 800,    -1 }, // 9mm 30rnd
@@ -349,10 +346,6 @@ class WeaponShops {
 			{ "O_NVGoggles_hex_F", "", 10000 },
 			{ "optic_ACO_grn_smg", "", 950 },
 		    { "optic_Aco", "", 1950 },		
-			
-			
-            
-            // Accessories
             { "acc_flashlight",         "", 1000,   -1 }, // Flashligt
             
             // Silencer
@@ -638,9 +631,9 @@ class WeaponShops {
         items[] = {
 
             { "SMG_02_F",                   "Taser Rifle",          0, -1 },
-			{ "arifle_Mk20C_plain_F",   "", 20000, -1 }, // MK20C
+			{ "arifle_Mk20C_plain_F",   "", 0, -1 }, // MK20C
             { "hgun_P07_snds_F",            "Stun Pistol",          0,  -1 },
-            { "arifle_SPAR_01_GL_snd_f", "",                     20000,  -1 },
+            { "arifle_SPAR_01_GL_snd_f", "",                     0,  -1 },
             { "hgun_Pistol_heavy_01_MRD_F", "",                     0,  -1 },
             { "arifle_SDAR_F",              "UW Rubber Rifle",      0,  -1 },
 
@@ -687,12 +680,12 @@ class WeaponShops {
         items[] = {
             
             { "SMG_02_F", "Taser Rifle", 0, -1 },
-			{ "arifle_Mk20C_plain_F",   "", 20000, -1 }, // MK20C
-            { "arifle_TRG21_F",         "", 20000 -1 }, // TRG
+			{ "arifle_Mk20C_plain_F",   "", 0, -1 }, // MK20C
+            { "arifle_TRG21_F",         "", 0 -1 }, // TRG
             { "hgun_P07_snds_F", "Stun Pistol", 0, -1 },
             { "hgun_P07_F", "", 0, -1 },
-            { "arifle_SPAR_01_blk_F", "", 20000, -1 },
-			{ "arifle_SPAR_01_snd_F", "", 20000, -1 },
+            { "arifle_SPAR_01_blk_F", "", 0, -1 },
+			{ "arifle_SPAR_01_snd_F", "", 0, -1 },
             { "SMG_02_ACO_F", "", 0, -1 },
             { "SMG_05_F", "", 0, -1 }, 
             
@@ -745,11 +738,11 @@ class WeaponShops {
             { "hgun_P07_F", "", 0, -1 },
             { "arifle_SPAR_01_blk_F", "", 0, -1 },
             { "SMG_05_F", "", 0, -1 }, 
-			{ "arifle_MX_F", "", 95000, -1 },
-			{ "arifle_MXM_F", "", 250000, -1 },			
-			{ "arifle_MXC_Black_F", "", 90000, 0 },
-			{ "arifle_MX_Black_F", "", 95000, 0 },
-			{ "arifle_ARX_blk_F", "", 95000, -1 },
+			{ "arifle_MX_F", "", 0, -1 },
+			{ "arifle_MXM_F", "", 0, -1 },			
+			{ "arifle_MXC_Black_F", "", 0, 0 },
+			{ "arifle_MX_Black_F", "", 0, 0 },
+			{ "arifle_ARX_blk_F", "", 0, -1 },
             
             // Items          
             { "FirstAidKit", "First Aid", 0, -1 },
@@ -795,10 +788,10 @@ class WeaponShops {
             // Guns
             { "hgun_ACPC2_F", "", 0, -1 },
             { "SMG_02_F", "", 0, -1 },
-			{ "arifle_MXM_Black_F", "", 250000, -1 },
-			{ "arifle_MX_F", "", 95000, -1 },
-			{ "arifle_MXM_F", "", 250000, -1 },
-			{ "arifle_MX_GL_F", "", 100000, -1 },
+			{ "arifle_MXM_Black_F", "", 0, -1 },
+			{ "arifle_MX_F", "", 0, -1 },
+			{ "arifle_MXM_F", "", 0, -1 },
+			{ "arifle_MX_GL_F", "", 0, -1 },
 				
 
             // Items
@@ -833,7 +826,7 @@ class WeaponShops {
             { "acc_flashlight", "",  0, -1 },
             { "optic_Holosight", "", 0, -1 },
             { "optic_Hamr", "", 0, -1},
-            { "optic_DMS",                "", 50000,  -1 }, // DMS Long Range Scope (Black) 						
+            { "optic_DMS",                "", 0,  -1 }, // DMS Long Range Scope (Black) 						
             { "optic_Arco", "",       0, -1 },
 			{ "optic_MRCO", "",       0, -1 },
             { "optic_ERDCO_blk_F", "", 0, -1 },
@@ -860,15 +853,15 @@ class WeaponShops {
             // Guns
 		    { "hgun_ACPC2_F", "", 0, -1 },
             { "SMG_02_F", "", 0, -1 },
-            { "arifle_SPAR_03_blk_F", "", 500000, -1 },
-			{ "arifle_MXM_Black_F", "", 250000, -1 },
-			{ "srifle_DMR_03_F", "", 500000, -1 },
-			{ "arifle_MX_F", "", 95000, -1 },
-			{ "arifle_MXM_F", "", 250000, -1 },			
-			{ "srifle_DMR_02_F", "", 500000, -1 },
-            { "srifle_DMR_07_blk_F", "", 500000, -1 },
-			{ "srifle_DMR_03_tan_F", "", 500000, -1 },	
-			{ "arifle_SPAR_03_snd_F", "", 500000, -1 },
+            { "arifle_SPAR_03_blk_F", "", 0, -1 },
+			{ "arifle_MXM_Black_F", "", 0, -1 },
+			{ "srifle_DMR_03_F", "", 0, -1 },
+			{ "arifle_MX_F", "", 0, -1 },
+			{ "arifle_MXM_F", "", 0, -1 },			
+			{ "srifle_DMR_02_F", "", 0, -1 },
+            { "srifle_DMR_07_blk_F", "", 0, -1 },
+			{ "srifle_DMR_03_tan_F", "", 0, -1 },	
+			{ "arifle_SPAR_03_snd_F", "", 0, -1 },
             
 
             // Items
@@ -906,7 +899,7 @@ class WeaponShops {
             { "optic_Hamr", "", 0, -1},
             { "optic_Arco", "",       0, -1 },
 			{ "optic_MRCO", "",       0, -1 },
-            { "optic_DMS",                "", 50000,  -1 }, // DMS Long Range Scope (Black) 						
+            { "optic_DMS",                "", 0,  -1 }, // DMS Long Range Scope (Black) 						
             { "optic_ERDCO_blk_F", "", 0, -1 },
 		    { "bipod_01_F_blk", "", 0, -1 },
 			{ "bipod_01_F_snd", "", 0, -1 },
@@ -930,20 +923,21 @@ class WeaponShops {
             // Guns
             { "hgun_ACPC2_F", "", 0, -1 },
             { "SMG_02_F", "", 0, -1 },
-            { "arifle_MXC_Black_F", "", 90000, 0 },
-            { "arifle_MX_Black_F", "", 95000, 0 },
-            { "arifle_SPAR_01_blk_F", "", 20000, -1 },
-			{ "arifle_SPAR_03_snd_F", "", 500000, -1 },
-            { "arifle_SPAR_03_blk_F", "", 500000, -1 },
-			{ "arifle_MXM_Black_F", "", 250000, -1 },
-			{ "arifle_MX_F", "", 95000, -1 },
-			{ "arifle_MXM_F", "", 250000, -1 },			
-			{ "arifle_MX_SW_Black_F", "", 100000, -1 },
-			{ "srifle_DMR_03_F", "", 500000, -1 },
-			{ "arifle_ARX_blk_F", "", 95000, -1 }, ///type
-			{ "srifle_DMR_02_F", "", 500000, -1 },
-			{ "srifle_DMR_03_tan_F", "", 500000, -1 },	
-            { "srifle_DMR_07_blk_F", "", 500000, -1 },
+            { "arifle_MXC_Black_F", "", 0, 0 },
+            { "arifle_MX_Black_F", "", 0, 0 },
+            { "arifle_SPAR_01_blk_F", "", 0, -1 },
+			{ "arifle_SPAR_03_snd_F", "", 0, -1 },
+            { "arifle_SPAR_03_blk_F", "", 0, -1 },
+			{ "arifle_MXM_Black_F", "", 0, -1 },
+			{ "arifle_MX_F", "", 0, -1 },
+			{ "arifle_MXM_F", "", 0, -1 },			
+			{ "arifle_MX_SW_Black_F", "", 0, -1 },
+			{ "srifle_DMR_03_F", "", 0, -1 },
+			{ "arifle_ARX_blk_F", "", 0, -1 }, ///type
+			{ "srifle_DMR_02_F", "", 0, -1 },
+			{ "srifle_DMR_03_tan_F", "", 0, -1 },	
+            { "srifle_DMR_07_blk_F", "", 0, -1 },
+			{ "srifle_GM6_F", "", 200000, -1 },
 
             // Items
             { "HandGrenade_Stone", "Flashbang", 0, -1 },
@@ -970,6 +964,7 @@ class WeaponShops {
             { "20Rnd_762x51_Mag", "", 0 },
 			{ "30Rnd_65x39_caseless_green", "", 0 },
 			{ "10Rnd_338_Mag", "", 0 },
+			{ "5Rnd_127x108_Mag", "", 0 },
             { "20Rnd_650x39_Cased_Mag_F", "", 0 }
         };
         
@@ -980,10 +975,11 @@ class WeaponShops {
             { "optic_Holosight",  "", 0, -1 },
             { "optic_Hamr",       "", 0, -1},
             { "optic_Arco",       "",0, -1 },
-            { "optic_DMS",                "", 50000,  -1 }, // DMS Long Range Scope (Black) 						
+            { "optic_DMS",                "", 0,  -1 }, // DMS Long Range Scope (Black) 						
 			{ "bipod_01_F_blk",       "",0, -1 },
 			{ "optic_MRCO",       "",0, -1 },
             { "optic_ERDCO_blk_F", "", 0, -1 },
+			{ "optic_LRPS", "", 0, -1 },
 			{ "bipod_01_F_snd", "", 0, -1 },	
             // Silencers
             { "muzzle_snds_B", "", 0},

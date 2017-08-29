@@ -132,120 +132,120 @@ class Clothing {
 
      /* -------------- START - DONATOR SHOP ---------------------------- */
 
-    class donator {
-    title = "STR_Shops_C_Donator";
-    license = "donator";
-    side = "civ";
-    uniforms[] = {
-            { "NONE",                       "Remove Uniform",               0,    { "life_donorlevel", "SCALAR", 1 } },
-            { "U_C_Poloshirt_stripped",     "Poloshirt stripped",           125,  { "life_donorlevel", "SCALAR", 1 } },
-            { "U_C_Poloshirt_redwhite",     "Poloshirt Red/White",          150,  { "life_donorlevel", "SCALAR", 1 } },
-            { "U_C_Poloshirt_salmon",       "Poloshirt Salmon",             175,  { "life_donorlevel", "SCALAR", 1 } },
-            { "U_C_Poloshirt_blue",         "Poloshirt Blue",               250,  { "life_donorlevel", "SCALAR", 1 } },
-            { "U_C_Poor_2",                 "Rag tagged clothes",           250,  { "life_donorlevel", "SCALAR", 1 } },
-            { "U_C_Poloshirt_burgundy",     "Poloshirt Burgundy",           275,  { "life_donorlevel", "SCALAR", 1 } },
-            { "U_C_Poloshirt_tricolour",    "Poloshirt Tricolor",           350,  { "life_donorlevel", "SCALAR", 1 } },
-            { "U_IG_Guerilla2_2",           "Green stripped shirt & Pants", 650,  { "life_donorlevel", "SCALAR", 1 } },
-            { "U_IG_Guerilla3_1",           "Brown Jacket & Pants",         735,  { "life_donorlevel", "SCALAR", 1 } },
-            { "U_OrestesBody",              "Surfing On Land",              1100, { "life_donorlevel", "SCALAR", 1 } },
-            { "U_IG_Guerilla2_3",           "The Outback Rangler",          1200, { "life_donorlevel", "SCALAR", 1 } },
-            { "U_C_HunterBody_grn",         "The Hunters Look",             1500, { "life_donorlevel", "SCALAR", 1 } },
-            { "U_C_WorkerCoveralls",        "Mechanic Coveralls",           2500, { "life_donorlevel", "SCALAR", 1 } },
-            { "U_NikosAgedBody",             "Casual Wears",                5000, { "life_donorlevel", "SCALAR", 1 } },
+    // class donator {
+    // title = "STR_Shops_C_Donator";
+    // license = "donator";
+    // side = "civ";
+    // uniforms[] = {
+            // { "NONE",                       "Remove Uniform",               0,    { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_C_Poloshirt_stripped",     "Poloshirt stripped",           125,  { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_C_Poloshirt_redwhite",     "Poloshirt Red/White",          150,  { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_C_Poloshirt_salmon",       "Poloshirt Salmon",             175,  { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_C_Poloshirt_blue",         "Poloshirt Blue",               250,  { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_C_Poor_2",                 "Rag tagged clothes",           250,  { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_C_Poloshirt_burgundy",     "Poloshirt Burgundy",           275,  { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_C_Poloshirt_tricolour",    "Poloshirt Tricolor",           350,  { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_IG_Guerilla2_2",           "Green stripped shirt & Pants", 650,  { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_IG_Guerilla3_1",           "Brown Jacket & Pants",         735,  { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_OrestesBody",              "Surfing On Land",              1100, { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_IG_Guerilla2_3",           "The Outback Rangler",          1200, { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_C_HunterBody_grn",         "The Hunters Look",             1500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_C_WorkerCoveralls",        "Mechanic Coveralls",           2500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_NikosAgedBody",             "Casual Wears",                5000, { "life_donorlevel", "SCALAR", 1 } },
 
-            //Nya kläder
-            { "U_I_C_Soldier_Bandit_1_F", "", 2500, { "life_donorlevel", "SCALAR", 1 } },
-            { "U_I_C_Soldier_Bandit_2_F", "", 2500, { "life_donorlevel", "SCALAR", 1 } },
-            { "U_I_C_Soldier_Bandit_3_F", "", 2500, { "life_donorlevel", "SCALAR", 1 } },
-            { "U_I_C_Soldier_Bandit_4_F", "", 2500, { "life_donorlevel", "SCALAR", 1 } },
-            { "U_I_C_Soldier_Bandit_5_F", "", 2500, { "life_donorlevel", "SCALAR", 1 } },
-            { "U_C_Man_sport_1_F",        "", 2500, { "life_donorlevel", "SCALAR", 1 } },
-            { "U_C_Man_sport_2_F",        "", 2500, { "life_donorlevel", "SCALAR", 1 } },
-            { "U_C_Man_sport_3_F",        "", 2500, { "life_donorlevel", "SCALAR", 1 } },
-            { "U_C_Man_casual_1_F",       "", 2500, { "life_donorlevel", "SCALAR", 1 } },
-            { "U_C_Man_casual_2_F",       "", 2500, { "life_donorlevel", "SCALAR", 1 } },
-            { "U_C_Man_casual_3_F",       "", 2500, { "life_donorlevel", "SCALAR", 1 } },
-            { "U_C_Man_casual_4_F",       "", 2500, { "life_donorlevel", "SCALAR", 1 } },
-            { "U_C_Man_casual_5_F",       "", 2500, { "life_donorlevel", "SCALAR", 1 } },
-            { "U_C_Man_casual_6_F",       "", 2500, { "life_donorlevel", "SCALAR", 1 } }
+            // Nya kläder
+            // { "U_I_C_Soldier_Bandit_1_F", "", 2500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_I_C_Soldier_Bandit_2_F", "", 2500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_I_C_Soldier_Bandit_3_F", "", 2500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_I_C_Soldier_Bandit_4_F", "", 2500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_I_C_Soldier_Bandit_5_F", "", 2500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_C_Man_sport_1_F",        "", 2500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_C_Man_sport_2_F",        "", 2500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_C_Man_sport_3_F",        "", 2500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_C_Man_casual_1_F",       "", 2500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_C_Man_casual_2_F",       "", 2500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_C_Man_casual_3_F",       "", 2500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_C_Man_casual_4_F",       "", 2500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_C_Man_casual_5_F",       "", 2500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "U_C_Man_casual_6_F",       "", 2500, { "life_donorlevel", "SCALAR", 1 } }
 
-        };
-        headgear[] = {
-            { "NONE",                   "Remove Hat",       0,   { "life_donorlevel", "SCALAR", 1 } },
-            { "H_Bandanna_camo",        "Camo Bandanna",    120, { "life_donorlevel", "SCALAR", 1 } },
-            { "H_Bandanna_surfer",      "Surfer Bandanna",  130, { "life_donorlevel", "SCALAR", 1 } },
-            { "H_Bandanna_surfer",      "",                 135, { "life_donorlevel", "SCALAR", 1 } },
-            { "H_Bandanna_khk",         "Khaki Bandanna",   145, { "life_donorlevel", "SCALAR", 1 } },
-            { "H_Cap_blu",              "",                 150, { "life_donorlevel", "SCALAR", 1 } },
-            { "H_Cap_grn",              "",                 150, { "life_donorlevel", "SCALAR", 1 } },
-            { "H_Cap_grn_BI",           "",                 150, { "life_donorlevel", "SCALAR", 1 } },
-            { "H_Cap_oli",              "",                 150, { "life_donorlevel", "SCALAR", 1 } },
-            { "H_Cap_red",              "",                 150, { "life_donorlevel", "SCALAR", 1 } },
-            { "H_Cap_tan",              "",                 150, { "life_donorlevel", "SCALAR", 1 } },
-            { "H_Bandanna_gry",         "Grey Bandanna",    150, { "life_donorlevel", "SCALAR", 1 } },
-            { "H_Bandanna_sgg",         "Sage Bandanna",    160, { "life_donorlevel", "SCALAR", 1 } },
-            { "H_Bandanna_cbr",         "",                 165, { "life_donorlevel", "SCALAR", 1 } },
-            { "H_StrawHat",             "Straw Fedora",     225, { "life_donorlevel", "SCALAR", 1 } },
-            { "H_Hat_tan",              "",                 265, { "life_donorlevel", "SCALAR", 1 } },
-            { "H_Hat_brown",            "",                 276, { "life_donorlevel", "SCALAR", 1 } },
-            { "H_Hat_grey",             "",                 280, { "life_donorlevel", "SCALAR", 1 } },
-            { "H_BandMask_blk",         "Hat & Bandanna",   300, { "life_donorlevel", "SCALAR", 1 } },
-            { "H_Hat_blue",             "",                 310, { "life_donorlevel", "SCALAR", 1 } },
-            { "H_Hat_checker",          "",                 340, { "life_donorlevel", "SCALAR", 1 } },
-            { "H_Booniehat_tan",        "",                 425, { "life_donorlevel", "SCALAR", 1 } }
-        };
-        goggles[] = {
-            { "NONE",                   "Remove Glasses",   0,   { "life_donorlevel", "SCALAR", 1 } },
-            { "G_Shades_Black",         "",                 20,  { "life_donorlevel", "SCALAR", 1 } },
-            { "G_Shades_Blue",          "",                 20,  { "life_donorlevel", "SCALAR", 1 } },
-            { "G_Shades_Green",         "",                 20,  { "life_donorlevel", "SCALAR", 1 } },
-            { "G_Shades_Red",           "",                 20,  { "life_donorlevel", "SCALAR", 1 } },
-            { "G_Sport_Blackred",       "",                 25,  { "life_donorlevel", "SCALAR", 1 } },
-            { "G_Sport_BlackWhite",     "",                 25,  { "life_donorlevel", "SCALAR", 1 } },
-            { "G_Sport_Blackyellow",    "",                 25,  { "life_donorlevel", "SCALAR", 1 } },
-            { "G_Sport_Checkered",      "",                 25,  { "life_donorlevel", "SCALAR", 1 } },
-            { "G_Sport_Greenblack",     "",                 25,  { "life_donorlevel", "SCALAR", 1 } },
-            { "G_Sport_Red",            "",                 25,  { "life_donorlevel", "SCALAR", 1 } },
-            { "G_Lowprofile",           "",                 30,  { "life_donorlevel", "SCALAR", 1 } },
-            { "G_Squares",              "",                 50,  { "life_donorlevel", "SCALAR", 1 } },
-            { "G_Aviator",              "",                 100, { "life_donorlevel", "SCALAR", 1 } },
-            { "G_Combat",               "",                 125, { "life_donorlevel", "SCALAR", 1 } },
-            { "G_Lady_Mirror",          "",                 150, { "life_donorlevel", "SCALAR", 1 } },
-            { "G_Lady_Dark",            "",                 150, { "life_donorlevel", "SCALAR", 1 } },
-            { "G_Lady_Blue",            "",                 150, { "life_donorlevel", "SCALAR", 1 } }
-        };
-        vests[] = {
-            { "NONE", "Remove Vest", 0, { "life_donorlevel", "SCALAR", 1 } }
-        };
-        backpacks[] = {
-            { "NONE",                   "Remove Backpack", 0, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_OutdoorPack_blk",      "", 500, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_AssaultPack_khk",      "", 2000, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_AssaultPack_dgtl",     "", 2000, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_AssaultPack_rgr",      "", 2000, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_AssaultPack_sgg", "", 2000, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_AssaultPack_blk", "", 2000, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_AssaultPack_cbr", "", 2000, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_AssaultPack_mcamo", "", 2000, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_TacticalPack_oli", "", 2500, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_Kitbag_mcamo", "", 3500, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_Kitbag_sgg", "", 3500, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_Kitbag_cbr", "", 3500, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_FieldPack_blk", "", 5000, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_FieldPack_ocamo", "", 5000, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_FieldPack_oucamo", "", 5000, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_Bergen_sgg", "", 6500, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_Bergen_mcamo", "", 6500, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_Bergen_rgr", "", 6500, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_Bergen_blk", "", 6500, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_Carryall_ocamo", "", 7500, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_Carryall_oucamo", "", 7500, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_Carryall_mcamo", "", 7500, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_Carryall_oli", "", 7500, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_Carryall_khk", "", 7500, { "life_donorlevel", "SCALAR", 1 } },
-            { "B_Carryall_cbr", "", 7500, { "life_donorlevel", "SCALAR", 1 } }
-        };
-    };
+        // };
+        // headgear[] = {
+            // { "NONE",                   "Remove Hat",       0,   { "life_donorlevel", "SCALAR", 1 } },
+            // { "H_Bandanna_camo",        "Camo Bandanna",    120, { "life_donorlevel", "SCALAR", 1 } },
+            // { "H_Bandanna_surfer",      "Surfer Bandanna",  130, { "life_donorlevel", "SCALAR", 1 } },
+            // { "H_Bandanna_surfer",      "",                 135, { "life_donorlevel", "SCALAR", 1 } },
+            // { "H_Bandanna_khk",         "Khaki Bandanna",   145, { "life_donorlevel", "SCALAR", 1 } },
+            // { "H_Cap_blu",              "",                 150, { "life_donorlevel", "SCALAR", 1 } },
+            // { "H_Cap_grn",              "",                 150, { "life_donorlevel", "SCALAR", 1 } },
+            // { "H_Cap_grn_BI",           "",                 150, { "life_donorlevel", "SCALAR", 1 } },
+            // { "H_Cap_oli",              "",                 150, { "life_donorlevel", "SCALAR", 1 } },
+            // { "H_Cap_red",              "",                 150, { "life_donorlevel", "SCALAR", 1 } },
+            // { "H_Cap_tan",              "",                 150, { "life_donorlevel", "SCALAR", 1 } },
+            // { "H_Bandanna_gry",         "Grey Bandanna",    150, { "life_donorlevel", "SCALAR", 1 } },
+            // { "H_Bandanna_sgg",         "Sage Bandanna",    160, { "life_donorlevel", "SCALAR", 1 } },
+            // { "H_Bandanna_cbr",         "",                 165, { "life_donorlevel", "SCALAR", 1 } },
+            // { "H_StrawHat",             "Straw Fedora",     225, { "life_donorlevel", "SCALAR", 1 } },
+            // { "H_Hat_tan",              "",                 265, { "life_donorlevel", "SCALAR", 1 } },
+            // { "H_Hat_brown",            "",                 276, { "life_donorlevel", "SCALAR", 1 } },
+            // { "H_Hat_grey",             "",                 280, { "life_donorlevel", "SCALAR", 1 } },
+            // { "H_BandMask_blk",         "Hat & Bandanna",   300, { "life_donorlevel", "SCALAR", 1 } },
+            // { "H_Hat_blue",             "",                 310, { "life_donorlevel", "SCALAR", 1 } },
+            // { "H_Hat_checker",          "",                 340, { "life_donorlevel", "SCALAR", 1 } },
+            // { "H_Booniehat_tan",        "",                 425, { "life_donorlevel", "SCALAR", 1 } }
+        // };
+        // goggles[] = {
+            // { "NONE",                   "Remove Glasses",   0,   { "life_donorlevel", "SCALAR", 1 } },
+            // { "G_Shades_Black",         "",                 20,  { "life_donorlevel", "SCALAR", 1 } },
+            // { "G_Shades_Blue",          "",                 20,  { "life_donorlevel", "SCALAR", 1 } },
+            // { "G_Shades_Green",         "",                 20,  { "life_donorlevel", "SCALAR", 1 } },
+            // { "G_Shades_Red",           "",                 20,  { "life_donorlevel", "SCALAR", 1 } },
+            // { "G_Sport_Blackred",       "",                 25,  { "life_donorlevel", "SCALAR", 1 } },
+            // { "G_Sport_BlackWhite",     "",                 25,  { "life_donorlevel", "SCALAR", 1 } },
+            // { "G_Sport_Blackyellow",    "",                 25,  { "life_donorlevel", "SCALAR", 1 } },
+            // { "G_Sport_Checkered",      "",                 25,  { "life_donorlevel", "SCALAR", 1 } },
+            // { "G_Sport_Greenblack",     "",                 25,  { "life_donorlevel", "SCALAR", 1 } },
+            // { "G_Sport_Red",            "",                 25,  { "life_donorlevel", "SCALAR", 1 } },
+            // { "G_Lowprofile",           "",                 30,  { "life_donorlevel", "SCALAR", 1 } },
+            // { "G_Squares",              "",                 50,  { "life_donorlevel", "SCALAR", 1 } },
+            // { "G_Aviator",              "",                 100, { "life_donorlevel", "SCALAR", 1 } },
+            // { "G_Combat",               "",                 125, { "life_donorlevel", "SCALAR", 1 } },
+            // { "G_Lady_Mirror",          "",                 150, { "life_donorlevel", "SCALAR", 1 } },
+            // { "G_Lady_Dark",            "",                 150, { "life_donorlevel", "SCALAR", 1 } },
+            // { "G_Lady_Blue",            "",                 150, { "life_donorlevel", "SCALAR", 1 } }
+        // };
+        // vests[] = {
+            // { "NONE", "Remove Vest", 0, { "life_donorlevel", "SCALAR", 1 } }
+        // };
+        // backpacks[] = {
+            // { "NONE",                   "Remove Backpack", 0, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_OutdoorPack_blk",      "", 500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_AssaultPack_khk",      "", 2000, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_AssaultPack_dgtl",     "", 2000, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_AssaultPack_rgr",      "", 2000, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_AssaultPack_sgg", "", 2000, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_AssaultPack_blk", "", 2000, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_AssaultPack_cbr", "", 2000, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_AssaultPack_mcamo", "", 2000, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_TacticalPack_oli", "", 2500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_Kitbag_mcamo", "", 3500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_Kitbag_sgg", "", 3500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_Kitbag_cbr", "", 3500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_FieldPack_blk", "", 5000, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_FieldPack_ocamo", "", 5000, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_FieldPack_oucamo", "", 5000, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_Bergen_sgg", "", 6500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_Bergen_mcamo", "", 6500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_Bergen_rgr", "", 6500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_Bergen_blk", "", 6500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_Carryall_ocamo", "", 7500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_Carryall_oucamo", "", 7500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_Carryall_mcamo", "", 7500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_Carryall_oli", "", 7500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_Carryall_khk", "", 7500, { "life_donorlevel", "SCALAR", 1 } },
+            // { "B_Carryall_cbr", "", 7500, { "life_donorlevel", "SCALAR", 1 } }
+        // };
+    // };
 
     /* -------------- END - DONATOR SHOP ---------------------------- */
 
@@ -433,8 +433,17 @@ class Clothing {
             { "NONE",                   "Remove Hat",       0,   { "", "", -1 } },
             { "H_Shemag_khk",           "",                 2000, { "", "", -1 } },
 			{ "H_MilCap_ocamo",           "",                 2000, { "", "", -1 } },
-			{ "Headgear_H_HelmetCrew_I",           "",                 20000, { "", "", -1 } },
-            { "H_Helmet_Skate",         "",                 2500, { "", "", -1 } }              
+			{ "H_HelmetCrew_I",           "",                 20000, { "", "", -1 } },
+            { "H_Helmet_Skate",         "",                 2500, { "", "", -1 } },
+            { "H_Bandanna_camo", "", 650, "" },
+			{ "H_MilCap_ghex_F", "", 650, "" },
+            { "H_ShemagOpen_khk", "", 800, "" },
+            { "H_ShemagOpen_tan", "", 850, "" },
+            { "H_Shemag_olive", "", 850, "" },
+			{ "H_Shemag_olive_hs", "", 850, "" },
+            { "H_MilCap_oucamo", "", 1200, "" },
+			{ "H_Booniehat_tna_F", "", 1200, "" },
+			{ "H_Milcap_tna_F", "", 1200, "" }			
         };
 
         goggles[] = {
@@ -458,9 +467,10 @@ class Clothing {
             { "NONE",                   "Remove Vest", 0, { "", "", -1 } },
             { "V_TacVest_khk",          "",            100000, { "", "", -1 } },
             { "V_TacVest_oli",          "",            100000, { "", "", -1 } },
-            { "V_TacVest_camo",          "",            100000, { "", "", -1 } },
+            { "V_TacVest_camo",          "",         100000, { "", "", -1 } },
             { "V_TacVest_blk",          "",            100000, { "", "", -1 } },		
-            { "V_TacVest_blk",          "",            100000, { "", "", -1 } },				
+            { "V_TacVest_blk",          "",            100000, { "", "", -1 } },	
+			{ "V_PlateCarrierIA1_dgtl", "",          200000, { "", "", -1 } },
 			{ "V_TacVestIR_blk",          "",          100000, { "", "", -1 } }
         };
         
