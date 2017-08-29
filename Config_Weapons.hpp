@@ -281,12 +281,19 @@ class WeaponShops {
         items[] = {
             // 5.56
             { "arifle_Mk20C_plain_F",   "", 200000, -1 }, // MK20C           
-            { "arifle_SPAR_01_snd_F",   "", 220000, -1 }, // SPAR
+            { "arifle_TRG21_F",   "", 220000, -1 }, // SPAR
+			{ "arifle_SPAR_01_snd_F",   "", 220000, -1 }, // SPAR
 			{ "arifle_AKS_F",           "", 85000, 5000 },
 			{ "arifle_Mk20_F", "", 240000, 500 },
-			{ "arifle_CTAR_blk_F", "", 290000, 500 },
+			{ "arifle_CTAR_blk_F", "", 275000, 500 },
             { "arifle_SDAR_F",          "",   50000, 15000 -1 }, // SDAR
-			{ "srifle_DMR_01_F","", 700000, -1 }, // Rahim					
+			{ "srifle_DMR_01_F","", 700000, -1 }, // Rahim	
+			{ "arifle_AKM_F","", 500000, -1 }, // AKM	
+			{ "arifle_AK12_F","", 1700000, -1 }, // AK12	
+			{ "arifle_Katiba_F","", 320000, -1 }, // Katiba	
+			{ "arifle_MXC_F","", 300000, -1 }, // MXC	
+			{ "arifle_CTAR_hex_F","", 700000, -1 }, // Rahim	
+			{ "srifle_DMR_06_olive_F","", 150000, -1 }, // Rahim	
 			
             // 9 mm
             { "SMG_01_F",               "", 15000, -1 }, // SMG
@@ -308,7 +315,12 @@ class WeaponShops {
             { "20Rnd_556x45_UW_mag",    "", 1000,   -1 }, // 5.56 Underwater Stanag
 			{ "30Rnd_545x39_Mag_F",     "", 1000,   -1 }, // AKS 
 			{ "30Rnd_580x42_Mag_F",     "", 1000,   -1 }, // CTAR	
-			{ "10Rnd_762x54_Mag",    "", 1000,   -1 }, // Rahim			
+			{ "30Rnd_762x39_Mag_F",    "", 1000,   -1 }, // ak		
+			{ "20Rnd_762x51_Mag",    "", 1000,   -1 }, // mk14	
+			{ "30Rnd_65x39_caseless_green",    "", 1000,   -1 }, // katiba	
+			{ "30Rnd_556x45_Stanag",    "", 1000,   -1 }, // mx	
+			{ "10Rnd_762x54_Mag",    "", 1000,   -1 }, // Rahim	
+		
 			
 			
             // .45 ACP
@@ -328,9 +340,9 @@ class WeaponShops {
             { "optic_ACO_grn_smg", "", 950 },
 			{ "acc_flashlight", "", 950 },
 			{ "optic_MRCO", "", 950 },
-            { "optic_DMS",                "", 50000,  -1 }, // DMS Long Range Scope (Black) 						
+            { "optic_DMS",         "", 100000,  -1 }, // DMS Long Range Scope (Black) 						
 			{ "optic_Hamr_khk_F", "", 950 },
-			{ "bipod_01_F_snd", "", 40000 },
+			{ "bipod_01_F_snd", "", 4000 },
 			{ "optic_ERCO_khk_F", "", 950 },
 			{ "optic_Hamr", "", 950 },
 			{ "FirstAidKit", "", 150 },

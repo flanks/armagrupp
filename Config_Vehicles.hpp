@@ -187,6 +187,7 @@ class CarShops {
 			{ "O_LSV_02_unarmed_arid_F", { "", "", -1 } },
 			{ "O_T_LSV_02_unarmed_F", { "", "", -1 } },
 			{ "O_T_LSV_02_unarmed_viper_F", { "", "", -1 } },
+			{ "O_MRAP_02_F", { "", "", -1 } },
 			{ "O_G_Offroad_01_armed_F", { "", "", -1 } }
 			/*
 			{ "B_T_LSV_01_unarmed_black_F", { "", "", -1 } },
@@ -1216,6 +1217,14 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {
 
 		};
+	class O_MRAP_02_F {
+        vItemSpace = 50;
+        vFuelSpace = 80000;
+        conditions = "";
+        price = 2000000;
+        textures[] = {
+
+		};	
     };
 	
 	class O_T_LSV_02_unarmed_viper_F {

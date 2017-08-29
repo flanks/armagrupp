@@ -433,6 +433,7 @@ class Clothing {
             { "NONE",                   "Remove Hat",       0,   { "", "", -1 } },
             { "H_Shemag_khk",           "",                 2000, { "", "", -1 } },
 			{ "H_MilCap_ocamo",           "",                 2000, { "", "", -1 } },
+			{ "Headgear_H_HelmetCrew_I",           "",                 20000, { "", "", -1 } },
             { "H_Helmet_Skate",         "",                 2500, { "", "", -1 } }              
         };
 
