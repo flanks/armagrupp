@@ -333,7 +333,7 @@ class LifeCfgVehicles {
     };
 	
 	class B_Heli_Transport_03_unarmed_green_F {
-        vItemSpace = 50;
+        vItemSpace = 500;
         conditions = "license_civ_pilot";
         price = 5000000;
         textures[] = { 
@@ -1284,7 +1284,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class I_Plane_Fighter_03_CAS_F {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "";C_Plane_Civil_01_racing_F
         price = 4000000;
         textures[] = {};
     };
@@ -1304,14 +1304,14 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };	
 		
     class C_Plane_Civil_01_racing_F {
-        vItemSpace = 70;
+        vItemSpace = 450;
         conditions = "";
         price = 440000;
         textures[] = {};
     };	
 	
     class B_Plane_CAS_01_F {
-        vItemSpace = 60;
+        vItemSpace = 450;
         conditions = "";
         price = 6000000;
         textures[] = {};
