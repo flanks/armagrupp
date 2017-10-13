@@ -1284,7 +1284,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class I_Plane_Fighter_03_CAS_F {
         vItemSpace = 60;
-        conditions = "";C_Plane_Civil_01_racing_F
+        conditions = "";
         price = 4000000;
         textures[] = {};
     };
