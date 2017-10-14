@@ -126,7 +126,11 @@ class Clothing {
             { "B_Carryall_mcamo", "", 7500, { "", "", -1 } },
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
-            { "B_Carryall_cbr", "", 7500, { "", "", -1 } }
+            { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
+			{ "B_Bergen_mcamo_F",         "",                7500, { "", "", -1 } },
+			{ "B_Bergen_dgtl_F",         "",                7500, { "", "", -1 } },
+			{ "B_Bergen_hex_F",         "",                7500, { "", "", -1 } },
+			{ "B_Bergen_tna_F",         "",                7500, { "", "", -1 } }			
         };
     };
 
@@ -349,12 +353,13 @@ class Clothing {
             { "H_Cap_police", "", 0, { "", "", -1 } },
             { "H_Watchcap_khk", "", 0, { "", "", -1 } },
             { "H_Booniehat_khk_hs", "", 0, { "", "", -1 } },
-            { "H_HelmetB_light", "", 0, { "", "", -1 } },			
+            { "H_HelmetB_light", "", 0, { "", "", -1 } },	
             { "H_HelmetB_plain_mcamo", "", 0, "call life_coplevel >= 1" },
 
             // Rank 2
             { "H_Beret_blk_POLICE", "", 0, "call life_coplevel >= 2" },
             { "H_Beret_blk", "", 0, "call life_coplevel >= 2" },
+			{ "H_HelmetB_grass", "", 0, "call life_coplevel >= 2" },
             { "H_Watchcap_blk", "", 0, "call life_coplevel >= 2" },
 
             // Rank 3
@@ -393,7 +398,6 @@ class Clothing {
 
             // Rank 2
             { "V_PlateCarrier1_blk", "", 0, "call life_coplevel >= 5" },
-			{ "V_PlateCarrierIA1_dgtl", "", 0, "call life_coplevel >= 4" },
 			{ "V_PlateCarrier1_rgr", "", 0, "call life_coplevel >= 4" },
             { "V_RebreatherB", "", 0, "call life_coplevel >= 1" }
 
@@ -426,7 +430,15 @@ class Clothing {
 			{ "U_I_C_Soldier_Para_2_F", "", 5000, {"", "", -1} },
 			{ "U_I_C_Soldier_Para_3_F", "", 5000, {"", "", -1} },
 			{ "U_I_C_Soldier_Para_4_F", "", 5000, {"", "", -1} },
-			{ "U_I_C_Soldier_Para_5_F", "", 5000, {"", "", -1} }
+			{ "U_I_C_Soldier_Para_5_F", "", 5000, {"", "", -1} },
+			{"U_BG_Guerilla2_2", "", 500, {"", "", -1} },
+            { "U_I_CombatUniform_shortsleeve", "", 750, "" },
+            { "U_I_CombatUniform", "", 1150, "" },
+            { "U_O_PilotCoveralls", "", 1561, "" },
+            { "U_I_OfficerUniform", "", 1750, "" },
+			{ "U_O_T_Soldier_F", "", 1750, "" },
+			{ "U_O_T_Officer_F", "", 1750, "" },
+            { "U_BG_Guerrilla_6_1", "", 1750, "" }
         };
         
         headgear[] = {
@@ -481,6 +493,9 @@ class Clothing {
             { "B_Carryall_mcamo",       "",                7500, { "", "", -1 } },
             { "B_Carryall_oli",         "",                7500, { "", "", -1 } },
             { "B_Carryall_khk",         "",                7500, { "", "", -1 } },
+			{ "B_Bergen_mcamo_F",         "",                7500, { "", "", -1 } },
+			{ "B_Bergen_dgtl_F",         "",                7500, { "", "", -1 } },
+			{ "B_Bergen_hex_F",         "",                7500, { "", "", -1 } },
 			{ "B_Bergen_tna_F",         "",                7500, { "", "", -1 } },
             { "B_Carryall_cbr",         "",                7500, { "", "", -1 } }
         };
@@ -652,7 +667,11 @@ class Clothing {
             { "B_Carryall_mcamo", "", 7500, { "", "", -1 } },
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
-            { "B_Carryall_cbr", "", 7500, { "", "", -1 } }
+            { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
+			{ "B_Bergen_mcamo_F",         "",                7500, { "", "", -1 } },
+			{ "B_Bergen_dgtl_F",         "",                7500, { "", "", -1 } },
+			{ "B_Bergen_hex_F",         "",                7500, { "", "", -1 } },
+			{ "B_Bergen_tna_F",         "",                7500, { "", "", -1 } }
         };
     };
 	
@@ -1264,7 +1283,11 @@ class Clothing {
             { "B_Carryall_oli",         "",                7500, { "", "", -1 } },
             { "B_Carryall_khk",         "",                7500, { "", "", -1 } },
 			{ "B_Bergen_tna_F",         "",                7500, { "", "", -1 } },
-            { "B_Carryall_cbr",         "",                7500, { "", "", -1 } }
+            { "B_Carryall_cbr",         "",                7500, { "", "", -1 } },
+			{ "B_Bergen_mcamo_F",         "",                7500, { "", "", -1 } },
+			{ "B_Bergen_dgtl_F",         "",                7500, { "", "", -1 } },
+			{ "B_Bergen_hex_F",         "",                7500, { "", "", -1 } },
+			{ "B_Bergen_tna_F",         "",                7500, { "", "", -1 } }
         };
     };
 };

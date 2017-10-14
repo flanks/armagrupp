@@ -49,7 +49,9 @@ DYNMARKET_Items_Groups =
 			["heroin_processed",-1,2500,7000],
 			["marijuana",-1,1500,5500],
 			["cocaine_processed",-1,3500,9500],
-			["turtle_raw",-1,3000,15000],
+			["ecstasy",-1,2500,8500],
+			["turtle_raw",-1,3000,35000],
+			["shroom",-1,50,350],
 			["counterfitCash",-1,82500,12500],
 			["tobacco_processed",-1,3000,4000],
 			["uranium_refined",-1,3500,6000]
@@ -77,7 +79,7 @@ DYNMARKET_Items_Groups =
 			["cement",-1,1800,3000],
 			["ruby_refined",-1,3500,4500],
 			["oil_processed",-1,2800,4500],
-			["diamond_cut",-1,2700,4900],
+			["diamond_cut",-1,2700,6900],
 			["goldbar",-1,75000,150000]
 		],
 		0.5
@@ -134,16 +136,18 @@ DYNMARKET_Items_ToTrack        =
 	["iron_refined",2650],
 	["salt_refined",3200],
 	["glass",3500],
-	["diamond_cut",3530],
+	["diamond_cut",4830],
 	["cement",2350],
 	
 	["lockpick",1500],
 	
 	
 	
-	["turtle_raw",9500],
+	["turtle_raw",20500],
 	["heroin_processed",6500],
 	["marijuana",4590],
+	["shroom",290],
+	["ecstasy",3990],
 	["tobacco_processed",3500],
 	["cocaine_processed",8500],
 	["counterfitCash",100000],

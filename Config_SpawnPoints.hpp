@@ -20,13 +20,13 @@
 */
 class CfgSpawnPoints {
     class Civilian {
-         // class Kavala {
-            // displayName = "Kavala";
-            // spawnMarker = "civ_spawn_1";
-            // icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-            // licenses[] = { { "", true } };
-            // level[] = { "", "", -1 };
-        // }; 
+          class Kavala {
+             displayName = "Kavala";
+             spawnMarker = "civ_spawn_1";
+             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+             licenses[] = { { "", true } };
+             level[] = { "", "", -1 };
+         }; 
 
         class Athira {
             displayName = "Athira";
@@ -44,13 +44,13 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
 
-        class Sofia {
-            displayName = "Neochori";
-            spawnMarker = "civ_spawn_4";
-            icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-            licenses[] = { { "", true } };
-            level[] = { "", "", -1 };
-        };
+        // class Sofia {
+            // displayName = "Neochori";
+            // spawnMarker = "civ_spawn_4";
+            // icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+            // licenses[] = { { "", true } };
+            // level[] = { "", "", -1 };
+        // };
 		
 		/* class losaltis {
             displayName = "Los Altis";
@@ -67,13 +67,13 @@ class CfgSpawnPoints {
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };*/
-        class Rebel {
-            displayName = "Rebel base";
-            spawnMarker = "rl_2";
-            icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-            licenses[] = { { "rebel", true } };
-            level[] = { "", "", -1 };
-        };
+        // class Rebel {
+            // displayName = "Rebel base";
+            // spawnMarker = "rl_2";
+            // icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+            // licenses[] = { { "rebel", true } };
+            // level[] = { "", "", -1 };
+        // };
 		
         /*class Rebel2 {
             displayName = "Legion Contras Outpost";
@@ -102,20 +102,20 @@ class CfgSpawnPoints {
         };
 
         class pyrgosHQ {
-            displayName = "Paros HQ";
+            displayName = "Pyrgos HQ";
             spawnMarker = "cop_spawn_2";
             icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
 
-       /*  class Air {
-            displayName = "Air HQ";
-            spawnMarker = "cop_spawn_4";
+        class Air {
+            displayName = "Military HQ";
+            spawnMarker = "cop_spawn_5";
             icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
-            licenses[] = { { "cAir", true } };
-            level[] = { "life_coplevel", "SCALAR", 2 };
-        }; */
+            licenses[] = { { "", true } };
+            level[] = { "", "", -1 };
+        };
 
         /*class HW {
             displayName = "HW Patrol";

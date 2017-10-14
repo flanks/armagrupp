@@ -114,7 +114,7 @@ class Life_Settings {
     revive_civ = false; //true to enable civs the ability to revive everyone or false for only medics/ems or medic/ems/cops.
     revive_east = true; //true to enable opfor the ability to revive everyone or false for only medics/ems or medic/ems/cops.
     revive_fee = 15000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
-    hospital_heal_fee = 1000; //Fee to heal at a hospital NPC
+    hospital_heal_fee = 500; //Fee to heal at a hospital NPC
 
     /* Paycheck & Bank System Configurations */
     bank_cop = 250000; //Amount of cash in bank for new cops

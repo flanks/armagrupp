@@ -25,11 +25,12 @@ class WeaponShops {
             { "hgun_Rook40_F", "", 6500, 500 },
             { "hgun_Pistol_heavy_02_F", "", 9850, -1 },
             { "hgun_ACPC2_F", "", 11500, -1 },
+            { "hgun_PDW2000_F", "", 45000, -1 },
             { "hgun_Pistol_01_F", "", 16000, -1 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
-			{ "10Rnd_9x21_Mag", "", 25 },
+			 { "10Rnd_9x21_Mag", "", 25 },
             { "6Rnd_45ACP_Cylinder", "", 50 },
             { "9Rnd_45ACP_Mag", "", 45 },
             { "30Rnd_9x21_Mag", "", 75 },
@@ -317,8 +318,8 @@ class WeaponShops {
 			{ "30Rnd_580x42_Mag_F",     "", 1000,   -1 }, // CTAR	
 			{ "30Rnd_762x39_Mag_F",    "", 1000,   -1 }, // ak		
 			{ "20Rnd_762x51_Mag",    "", 1000,   -1 }, // mk14	
+			{ "30Rnd_65x39_caseless_mag",    "", 1000,   -1 }, // mx	
 			{ "30Rnd_65x39_caseless_green",    "", 1000,   -1 }, // katiba	
-			{ "30Rnd_556x45_Stanag",    "", 1000,   -1 }, // mx	
 			{ "10Rnd_762x54_Mag",    "", 1000,   -1 }, // Rahim	
 			
             // .45 ACP
@@ -352,6 +353,7 @@ class WeaponShops {
             { "muzzle_snds_M_snd_F",          "", 75000,   -1 }, // 5.56 Silencer
             { "muzzle_snds_58_wdm_F",          "", 80000,   -1 }, // 5.8 Silencer
 			{ "muzzle_snds_58_blk_F", "", 80000 },
+			{ "muzzle_snds_H", "", 80000 },
             { "muzzle_snds_L",          "", 5000,   -1 }, // Silencer
             { "muzzle_snds_acp",        "", 5000,   -1 }  // Silencer ACP
         };
@@ -385,37 +387,28 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            // 9 mm
-            { "SMG_01_F",               "", 15000, -1 }, // SMG
-            { "hgun_Rook40_F",          "", 6500,   -1 }, // ROOK
-            { "hgun_PDW2000_F",         "", 12000, -1 }, // PDW
-			{ "hgun_P07_F",         	 "", 10000,   -1 }, // p07
-			{ "SMG_05_F",         	     "", 10000,   -1 }, // protector
-		    { "arifle_SDAR_F",          "",   50000, 15000 -1 }, // SDAR
-
-            // .45 ACP
-            { "hgun_ACPC2_F",           "", 7500,   -1 }, // .45 ACP
-            { "hgun_Pistol_heavy_01_F", "", 7500,   -1 },  // .45 ACP
-			{ "hgun_Pistol_heavy_02_F", "", 7500,   -1 }  // .45 Revolver
-			{ "arifle_SDAR_F", "",   50000, 15000 -1 } // SDAR
+            { "hgun_Rook40_F", "", 10000, 500 },
+            { "hgun_Pistol_heavy_02_F", "", 10500, -1 },
+            { "hgun_ACPC2_F", "", 11500, -1 },
+            { "hgun_PDW2000_F", "", 60000, -1 },
+            { "srifle_DMR_01_F","", 800000, -1 }, // Rahim				
+			{ "arifle_Mk20_F", "", 410000, 500 },
+			{ "arifle_CTAR_blk_F", "", 320000, 500 },
+			{ "arifle_SDAR_F", "",   50000, 15000 -1 }, // SDAR
+			{ "arifle_AKS_F", "", 185000, 500 }
 		
         };
         mags[] = {
-            // 5.56
-		    { "30Rnd_556x45_Stanag",    "", 1000,   -1 }, // 5.56 Stanag
-            { "20Rnd_556x45_UW_mag",    "", 1000,   -1 }, // 5.56 Underwater Stanag
-			
-            // .45 ACP
-            { "30Rnd_45ACP_Mag_SMG_01", "", 1000,   -1 }, // .45 ACP
-            { "9Rnd_45ACP_Mag",         "", 900,    -1 }, // .45 ACP Handgun mag
-			{ "11Rnd_45ACP_Mag",         "", 900,    -1 }, // .45 ACP Handgun mag
-			{ "6Rnd_45ACP_Cylinder",         "", 900,    -1 }, // .45 ACP Handgun mag
-			
-
-            // 9 mm
-            { "16Rnd_9x21_Mag",         "", 600,    -1 }, // 9mm 16rnd
-            { "30Rnd_9x21_Mag",         "", 800,    -1 }, // 9mm 30rnd
-			{ "30Rnd_9x21_Mag_SMG_02",         "", 800,    -1 } // 9mm 30rnd
+            { "16Rnd_9x21_Mag", "", 25 },
+            { "6Rnd_45ACP_Cylinder", "", 50 },
+            { "9Rnd_45ACP_Mag", "", 45 },
+            { "30Rnd_556x45_Stanag", "", 1000 },
+			{ "20Rnd_556x45_UW_mag",    "", 1000,   -1 }, // 5.56 Underwater Stanag
+			{ "30Rnd_545x39_Mag_F", "", 1000 },
+            { "9Rnd_45ACP_Mag", "", 45 },
+			{ "30Rnd_580x42_Mag_F",     "", 1000,   -1 }, // CTAR
+			{ "10Rnd_762x54_Mag",    "", 1000,   -1 }, // Rahim	
+            { "30Rnd_9x21_Mag", "", 75 }
         };
         accs[] = {
             { "optic_ACO_grn_smg", "", 1950 },
@@ -938,7 +931,7 @@ class WeaponShops {
 			{ "srifle_DMR_03_tan_F", "", 0, -1 },	
             { "srifle_DMR_07_blk_F", "", 0, -1 },
 			{ "srifle_GM6_F", "", 200000, -1 },
-
+			{ "srifle_LRR_F", "", 200000, -1 },
             // Items
             { "HandGrenade_Stone", "Flashbang", 0, -1 },
             { "FirstAidKit", "First Aid", 0, -1 },
@@ -965,6 +958,7 @@ class WeaponShops {
 			{ "30Rnd_65x39_caseless_green", "", 0 },
 			{ "10Rnd_338_Mag", "", 0 },
 			{ "5Rnd_127x108_Mag", "", 0 },
+			{ "7Rnd_408_Mag", "", 0 },
             { "20Rnd_650x39_Cased_Mag_F", "", 0 }
         };
         
