@@ -341,7 +341,7 @@ class LifeCfgVehicles {
     };
 	
 	class B_Heli_Transport_03_unarmed_green_F {
-        vItemSpace = 500;
+        vItemSpace = 501;
         conditions = "license_civ_pilot";
         price = 5000000;
         textures[] = { 
