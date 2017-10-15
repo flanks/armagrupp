@@ -1053,9 +1053,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class O_Heli_Light_02_unarmed_F {
-          vItemSpace = 150;
+          vItemSpace = 50;
           conditions = "";
-          price = 950000;
+          price = 100000;
           textures[] = {
               { "Medic", "med", {
                   "textures\medic\vehicles\MedicOrca.jpg"
