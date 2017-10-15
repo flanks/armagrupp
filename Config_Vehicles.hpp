@@ -1,4 +1,4 @@
-class CarShops {
+﻿class CarShops {
     /*
     *    ARRAY FORMAT:
     *        0: STRING (Classname)
@@ -244,7 +244,7 @@ class LifeCfgVehicles {
     };
 	
 	class O_G_Offroad_01_armed_F {
-        vItemSpace = 50;
+        vItemSpace = 55;
         conditions = "";
         price = 450000;
         textures[] = {};
