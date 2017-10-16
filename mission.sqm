@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=2161;
+		nextID=2185;
 	};
 	class Camera
 	{
-		pos[]={3239.5574,80.008133,12819.37};
-		dir[]={-0.052919734,-0.82564545,0.56172353};
-		up[]={-0.077441402,0.56417036,0.82201594};
-		aside[]={0.99560243,3.8239523e-007,0.093794674};
+		pos[]={16020.313,155.49524,16843.045};
+		dir[]={-0.066870607,-0.77193266,0.63218981};
+		up[]={-0.081199743,0.63570052,0.76765072};
+		aside[]={0.99445736,-5.1582902e-008,0.10518986};
 	};
 };
 binarizationWanted=0;
@@ -367,24 +367,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -399,6 +381,24 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
 				};
 			};
 		};
@@ -12950,7 +12950,7 @@ class Mission
 			text="Big Market";
 			type="c_unknown";
 			colorName="ColorGreen";
-			angle=111.65816;
+			angle=111.65815;
 			id=11822;
 			atlOffset=-120.93845;
 		};
@@ -84302,20 +84302,20 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={16014.512,15.756854,16959.273};
-				angles[]={0,5.6105528,6.2811141};
+				position[]={16014.513,15.756511,16959.273};
+				angles[]={0,5.6105528,6.2811084};
 			};
 			side="Empty";
 			class Attributes
 			{
 				ammo=0;
 				init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Open_Vault"",life_fnc_safeOpenBank,"""",0,false,false,"""",' playerSide isEqualTo civilian && {_target getVariable [""safe_open"",false]} ']; this addAction[localize""STR_MAR_Fix_Vault"",life_fnc_safeFix,"""",0,false,false,"""",' playerSide isEqualTo west && {_target getVariable [""safe_open"",false]} ' ];";
-				name="fed_bank";
+				name="fed_bank_1";
 				disableSimulation=1;
 			};
 			id=29419;
 			type="Land_Cargo10_brick_red_F";
-			atlOffset=0.70334339;
+			atlOffset=0.70300007;
 			class CustomAttributes
 			{
 				class Attribute0
