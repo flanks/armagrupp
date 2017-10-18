@@ -296,8 +296,8 @@ class VirtualItems {
         variable = "spikeStrip";
         displayName = "STR_Item_SpikeStrip";
         weight = 15;
-        buyPrice = 40000;
-        sellPrice = 10000;
+        buyPrice = 20000;
+        sellPrice = 50000;
         illegal = true;
         edible = -1;
         icon = "icons\ico_spikeStrip.paa";
@@ -307,8 +307,8 @@ class VirtualItems {
         variable = "lockpick";
         displayName = "STR_Item_Lockpick";
         weight = 1;
-        buyPrice = 25000;
-        sellPrice = 15000;
+        buyPrice = 10000;
+        sellPrice = 2500;
         illegal = true;
         edible = -1;
         icon = "icons\ico_lockpick.paa";
