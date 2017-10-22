@@ -1088,7 +1088,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class B_Heli_Light_01_F {
         vItemSpace = 90;
-        conditions = "license_civ_pilot || {license_cop_cAir} || {license_med_mAir}";
+        conditions = "license_civ_pilot || {license_cop_cAir} || {license_med_mAir} || {!(playerSide isEqualTo civilian)}";
         price = 545000;
         textures[] = {
              { "stickerbomb", "civ", {
