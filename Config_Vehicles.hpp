@@ -1088,7 +1088,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class B_Heli_Light_01_F {
         vItemSpace = 90;
-        conditions = "license_civ_pilot || {license_cop_cAir} || {license_med_mAir}";
+        conditions = "license_civ_pilot || {license_cop_cAir} || {license_civ_rebel} || {license_med_mAir}";
         price = 545000;
         textures[] = {
              { "stickerbomb", "civ", {
@@ -1127,7 +1127,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Waves Blue", "civ", {
                 "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wave_co.paa"
             } },
-            { "aff", "reb", {
+            { "aff", "rebel", {
                 "textures\rebel\vehicles\aff_hummingalt2_0.jpg"
             } },
             // { "Digi Green", "reb", {
