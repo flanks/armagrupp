@@ -8,7 +8,7 @@ class EditorData
 	toggles=74;
 	class ItemIDProvider
 	{
-		nextID=42648;
+		nextID=42651;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=3553;
+		nextID=3577;
 	};
 	class Camera
 	{
-		pos[]={10224.349,311.06616,15826.582};
-		dir[]={0.66494417,-0.22557117,-0.71201777};
-		up[]={0.15396057,0.97422606,-0.16486014};
-		aside[]={-0.73085409,-3.1432137e-008,-0.68253487};
+		pos[]={14057.046,46.310638,13045.305};
+		dir[]={0.85142744,-0.36067665,-0.38091603};
+		up[]={0.32927841,0.93266463,-0.14731519};
+		aside[]={-0.40840179,-7.3053525e-007,-0.91285926};
 	};
 };
 binarizationWanted=0;
@@ -384,6 +384,24 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -398,24 +416,6 @@ class CustomAttributes
 						};
 					};
 					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
 				};
 			};
 		};
@@ -479,7 +479,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=5120;
+		items=5121;
 		class Item0
 		{
 			dataType="Marker";
@@ -1503,7 +1503,7 @@ class Mission
 			colorName="ColorOrange";
 			angle=177.24652;
 			id=130;
-			atlOffset=7.259079;
+			atlOffset=7.3980446;
 		};
 		class Item95
 		{
@@ -15975,7 +15975,6 @@ class Mission
 				angles[]={0,2.7265706,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];this addAction[""Rob Gas Station"",life_fnc_robShops]; this setObjectTexture [0, ""textures\logos\infostand_sone.jpg""];";
@@ -15984,7 +15983,7 @@ class Mission
 			};
 			id=15327;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.00071334839;
+			atlOffset=0.54485893;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16294,7 +16293,7 @@ class Mission
 			};
 			id=15334;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.086000443;
+			atlOffset=0.085897446;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16506,7 +16505,7 @@ class Mission
 			};
 			id=15339;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.00051116943;
+			atlOffset=0.18696594;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17302,7 +17301,7 @@ class Mission
 			};
 			id=15364;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.21999931;
+			atlOffset=0.21996117;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -20958,7 +20957,7 @@ class Mission
 			};
 			id=15505;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.38999939;
+			atlOffset=0.38943481;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -82495,7 +82494,7 @@ class Mission
 		class Item2437
 		{
 			dataType="Marker";
-			position[]={3442.8328,0,13018.7};
+			position[]={3514.344,0,13001.578};
 			name="safezone_1";
 			text="safezone";
 			markerType="ELLIPSE";
@@ -82503,11 +82502,11 @@ class Mission
 			colorName="ColorGreen";
 			alpha=0.3833724;
 			fillName="Grid";
-			a=400;
+			a=300;
 			b=650;
-			angle=38.742977;
+			angle=38.742992;
 			id=34854;
-			atlOffset=-5.261517;
+			atlOffset=-8.4963436;
 		};
 		class Item2438
 		{
@@ -161572,14 +161571,14 @@ class Mission
 		class Item4523
 		{
 			dataType="Trigger";
-			position[]={3444.3401,106.55032,13016.771};
-			angle=0.67619264;
+			position[]={3518.2871,106.55054,13002.935};
+			angle=0.67619276;
 			class Attributes
 			{
 				condition="this && (vehicle player in thisList)";
 				onActivation="[""INFO"",[""You Entered Kavla Super Safezone. Here it is you not allowed to start a war or kill anyone, as well as knock and steal vehicles!.""],""#0eb0ff""] call life_fnc_specialText;";
 				onDeactivation="[""INFO"",[""You have now left Kavala and safe zone. Normal rules apply!.""],""#0eb0ff""] call life_fnc_specialText;";
-				sizeA=400;
+				sizeA=300;
 				sizeB=650;
 				sizeC=0;
 				timeout[]={0,1,2};
@@ -161590,7 +161589,7 @@ class Mission
 			};
 			id=42001;
 			type="EmptyDetector";
-			atlOffset=101.161;
+			atlOffset=97.986557;
 		};
 		class Item4524
 		{
@@ -165561,7 +165560,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={14116.672,10.849839,12972.826};
-			angle=4.835712;
+			angle=4.8357115;
 			class Attributes
 			{
 				condition="this && (vehicle player in thisList)";
@@ -165584,7 +165583,7 @@ class Mission
 			position[]={13955.04,11.646946,12975.859};
 			name="rl_3";
 			type="Empty";
-			angle=28.61768;
+			angle=28.617676;
 			id=42157;
 		};
 		class Item4639
@@ -181581,7 +181580,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14090.041,14.480865,12960.446};
+				position[]={14089.949,14.48949,12960.381};
 				angles[]={0,0.08181306,0};
 			};
 			side="Empty";
@@ -181591,7 +181590,7 @@ class Mission
 			};
 			id=42589;
 			type="Land_MilOffices_V1_F";
-			atlOffset=-0.0066652298;
+			atlOffset=4.863739e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -181621,17 +181620,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14081.931,12.253414,12971.919};
+				position[]={14081.931,12.268786,12971.919};
 				angles[]={0.014451326,0.066200338,0.016406095};
 			};
 			side="Empty";
 			class Attributes
 			{
-				init="this addAction[localize""STR_MAR_BlackMarket_Weapon_Shop"",life_fnc_weaponShopMenu,""blackmarket"",0,false,false,"""",' _b = (nearestObjects[getPosATL player,[""Land_u_Barracks_V2_F"",""Land_i_Barracks_V2_F"",""Land_MilOffices_V1_F""],25]) select 0; !isNil {_b getVariable ""gangOwner""} && {(_b getVariable ""gangOwner"") == (group player)} ']; this setObjectTexture [0, ""textures\logos\infostand_sone.jpg""];";
+				init="this addAction[localize""STR_MAR_BlackMarket_Weapon_Shop"",life_fnc_weaponShopMenu,""secret_stash"",0,false,false,"""",' _b = (nearestObjects[getPosATL player,[""Land_u_Barracks_V2_F"",""Land_i_Barracks_V2_F"",""Land_MilOffices_V1_F""],25]) select 0; !isNil {_b getVariable ""gangOwner""} && {(_b getVariable ""gangOwner"") == (group player)} ']; this setObjectTexture [0, ""textures\logos\infostand_sone.jpg""];";
 			};
 			id=42590;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.61900043;
+			atlOffset=0.63437271;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -181661,7 +181660,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14274.816,5.1217403,13037.176};
+				position[]={14274.816,4.5238438,13036.413};
 				angles[]={0,0.046303585,0};
 			};
 			side="Empty";
@@ -181673,7 +181672,7 @@ class Mission
 			};
 			id=42591;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.074671268;
+			atlOffset=-0.54457903;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -181703,7 +181702,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14274.12,5.0201426,13037.156};
+				position[]={14274.12,4.422246,13036.394};
 				angles[]={0,0.076009087,0};
 			};
 			side="Empty";
@@ -181715,7 +181714,7 @@ class Mission
 			};
 			id=42592;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.010571957;
+			atlOffset=-0.60867834;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -181766,7 +181765,7 @@ class Mission
 			init="life_gang = nearestObjects [this, [""Land_u_Barracks_V2_F"",""Land_i_Barracks_V2_F"",""Land_Barracks_01_camo_F""], 20];   " \n "{ _x allowDamage false; } forEach life_gang;c";
 			id=42594;
 			type="LocationBase_F";
-			atlOffset=21.119684;
+			atlOffset=21.101072;
 		};
 		class Item5075
 		{
@@ -183042,6 +183041,19 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item5120
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={14263.174,4.0623035,13033.167};
+				angles[]={0.14170329,2.1860597,0.0013439035};
+			};
+			init=" { _x hideObjectGlobal true } foreach (nearestTerrainObjects [this,[],20])";
+			id=42648;
+			type="Logic";
+			atlOffset=-0.12517834;
 		};
 	};
 };
